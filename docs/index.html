@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Maurine's Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+
+    </head>
+    <body>
+        <nav id="desktop-nav">
+                <ul class="nav-links">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+        </nav>
+        <nav id="hambuger-nav">
+            <div class="hambuger-nmenu">
+                <div class="hambuger-icon" onclick="togglemenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li>
+                        <a href="#about" onclick="togglemenu()">About</a>
+                    </li>
+                    <li>
+                        <a href="#experince" onclick="togglemenu()">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#projects" onclick="togglemenu()">Projects</a>
+                    </li><li>
+                        <a href="#contact" onclick="togglemenu()">Contact</a>
+                    </li>
+                </div>
+            </div>
+        </nav>
+        <!--profile-->
+        <section id="profile">
+            <div class="section_pic_container">
+                <img src="https://www.dropbox.com/scl/fi/546gpkprsz8q9xb1n41jx/profile.jpg?rlkey=nftynatr2pw0y39j7elkk4p14&st=f7aljcsa&dl=1" alt="Maurine Wangechi Maingi profile picture">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello I'm</p>
+                <h1 class="title">Maurine Wangechi Maingi</h1>
+                <p class="section__text_p2">Digital Forensics and Threat Intelligence Analyst, Web Developer, Researcher and Data Analyst</p>
+                <div class="bth-container">
+                    <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1HuWPaEYmKNf2aV8VUYx-eLpubxs1lKBK/view?usp=drive_link')">Download CV</button>
+                </div>
+                <div class="social-container">
+                    <a href="https://www.linkedin.com/in/wangechi-maingi-60a81b31a/" target="_blank">
+                        <img src="https://www.dropbox.com/scl/fi/6bujqroqbtb5hmd4hfpy8/linkedin.jpg?rlkey=ee35h82u3eyvasr68vwxttvli&st=vcdv4tpa&dl=1" alt="My LinkedIn profile" class="icon">
+                    </a>                
+                    <a href="https://github.com/WangechiMaingi017/WangechiMaingi017" target="_blank">
+                        <img src="https://www.dropbox.com/scl/fi/o3i72c5x85ku3yd1z80ww/github.jpg?rlkey=d21hf3nqkryftbv470azioswa&st=8rcsp5qw&dl=1" alt="My GitHub profile" class="icon">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--about-->
+        <section id="about">
+            <p class="section__text__p1">Get to know more!!</p>
+            <h1 class="tittle">About Me</h1>
+            <div class="section_container">
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="https://www.dropbox.com/scl/fi/fptbpoygp5vttfgsmcp0w/experience.jpg?rlkey=2188vefm6hlnusvqbdmqgyz8n&st=5awxqyoe&dl=1" alt="Experience icon"class="icon">
+                            <h3>Experience</h3>
+                            <p>
+                                "1+ years"
+                                <br>
+                                "Digital Forensics and Threat Intelligence Analyst"
+                            </p>
+                        </div>
+                        <div class="details-container">
+                            <img src="https://www.dropbox.com/scl/fi/fptbpoygp5vttfgsmcp0w/experience.jpg?rlkey=2188vefm6hlnusvqbdmqgyz8n&st=5awxqyoe&dl=1" alt="Experience icon"class="icon">
+                            <h3>Experience</h3>
+                            <p>
+                                "4+ years"
+                                <br>
+                                "Web Development"
+                            </p>
+                        </div>
+                        <div class="details-container">
+                            <img src="https://www.dropbox.com/scl/fi/ub035otrvi82nbmdadwrn/education.jpg?rlkey=t91o14j9iz71oldi1ov02sfp3&st=a5bw0skt&dl=1" alt="Education icon"class="icon">
+                            <h3>Education</h3>
+                            <p>
+                                "B.Sc. Information Technology"
+                                <br>
+                                "Dedan Kimathi University of Technology"
+                            </p>
+                        </div>
+                        <div class="details-container">
+                            <img src="https://www.dropbox.com/scl/fi/ub035otrvi82nbmdadwrn/education.jpg?rlkey=t91o14j9iz71oldi1ov02sfp3&st=a5bw0skt&dl=1" alt="Education icon"class="icon">
+                            <h3>Education</h3>
+                            <p>
+                                "Diploma in Information Technology"
+                                <br>
+                                "Nyandarua National Polytechnic"
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            " I am a dedicated Information Technology student at the Dedan Kimathi University of 
+                            Technology with practical skills in Web Development both front-end and back-end 
+                            development, Cyber Security, Networking, Artificial Intelligence and Machine Learning. I am proficient in 
+                            front-end(HTML, CSS, JavaScript) and back-end(PHP,Node.js, Flask),
+                            I have been able to create and train models(using Python) that help solve some of
+                            our day to day problems. I have excelled in diverse projects, including creating a 
+                            flood prediction model and website. My skills span programming(Java, C, C++) database
+                            management, computer networking and cyber security. I have also grown keen interest in data science. "
+                        </p>
+                    </div>
+                </div>
+            </div>
+           <!-- <img src="https://www.dropbox.com/scl/fi/pj3khcpzzwb7sxmk4y3z0/arrow-icon.jpg?rlkey=9iuakjgvijyw3nfm1z2dp39gq&st=7yq2ka3k&dl=1" alt="Arrow icon" class="icon arrow"  style="cursor:pointer;" onclick="location.href='./#about'">-->
+        </section>
+        <!--experiences-->
+        <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-tittle">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="https://www.dropbox.com/scl/fi/fptbpoygp5vttfgsmcp0w/experience.jpg?rlkey=2188vefm6hlnusvqbdmqgyz8n&st=5awxqyoe&dl=1" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <br>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://www.dropbox.com/scl/fi/fptbpoygp5vttfgsmcp0w/experience.jpg?rlkey=2188vefm6hlnusvqbdmqgyz8n&st=5awxqyoe&dl=1" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <br>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://www.dropbox.com/scl/fi/fptbpoygp5vttfgsmcp0w/experience.jpg?rlkey=2188vefm6hlnusvqbdmqgyz8n&st=5awxqyoe&dl=1" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <br>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                    </div>    
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-tittle">Back-End Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="https://www.dropbox.com/scl/fi/fptbpoygp5vttfgsmcp0w/experience.jpg?rlkey=2188vefm6hlnusvqbdmqgyz8n&st=5awxqyoe&dl=1" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>MYSQL</h3>
+                                    <br>
+                                    <P>Experienced</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="https://www.dropbox.com/scl/fi/fptbpoygp5vttfgsmcp0w/experience.jpg?rlkey=2188vefm6hlnusvqbdmqgyz8n&st=5awxqyoe&dl=1" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>JaVa</h3>
+                                    <br>
+                                    <P>Intermediate</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="https://www.dropbox.com/scl/fi/fptbpoygp5vttfgsmcp0w/experience.jpg?rlkey=2188vefm6hlnusvqbdmqgyz8n&st=5awxqyoe&dl=1" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Node JS</h3>
+                                    <br>
+                                    <P>Intermediate</P>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-tittle">Digital Forensics and Threat Intelligence</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="https://www.dropbox.com/scl/fi/fptbpoygp5vttfgsmcp0w/experience.jpg?rlkey=2188vefm6hlnusvqbdmqgyz8n&st=5awxqyoe&dl=1" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>SIEM Tools</h3>
+                                    <br>
+                                    <P>Intermediate</P>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="https://www.dropbox.com/scl/fi/fptbpoygp5vttfgsmcp0w/experience.jpg?rlkey=2188vefm6hlnusvqbdmqgyz8n&st=5awxqyoe&dl=1"  alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Spider Foot</h3>
+                                    <br>
+                                    <P>Intermediate</P>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <!-- <img src="https://www.dropbox.com/scl/fi/pj3khcpzzwb7sxmk4y3z0/arrow-icon.jpg?rlkey=9iuakjgvijyw3nfm1z2dp39gq&st=7yq2ka3k&dl=1" alt="Arrow icon" class="icon arrow" style="cursor:pointer"  onclick="location.href='./#experience'">-->
+            </section>
+        <!--projects-->
+        <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                          <img src="https://www.dropbox.com/scl/fi/p75hwutz7loba49wpmm6z/pdf.jpg?rlkey=z9vizeadoe1bskarlq8ajmzk3&st=n1id1ck6&dl=1" alt="Project" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-tittle">
+                            "The flood prediction website uses a ML model to predict the occurence of floods in Busia County based on several weather and geographical conditions that can lead to occurence in floods and help the residents to take necessary precautions."
+                        </h2>
+                        <div class="btn-container">
+                            <button class="btn-color-2" onclick="location.href= 'https://github.com/WangechiMaingi017/WangechiMaingi017'">Github</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="https://www.dropbox.com/scl/fi/p75hwutz7loba49wpmm6z/pdf.jpg?rlkey=z9vizeadoe1bskarlq8ajmzk3&st=n1id1ck6&dl=1" alt="Project-2" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-tittle">English Resume</h2>
+                        <div class="btn-container">
+                            <button class="btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1HuWPaEYmKNf2aV8VUYx-eLpubxs1lKBK/view?usp=drive_link'">Download</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                        <img src="https://www.dropbox.com/scl/fi/p75hwutz7loba49wpmm6z/pdf.jpg?rlkey=z9vizeadoe1bskarlq8ajmzk3&st=n1id1ck6&dl=1" alt="Project-2" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-tittle">Kiswahili Resume</h2>
+                        <div class="btn-container">
+                            <button class="btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/17fA5AGY4rVmG6U9q__3q2eU3jIvpR7MK/view?usp=drive_link'">Download</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                         <img src="https://www.dropbox.com/scl/fi/p75hwutz7loba49wpmm6z/pdf.jpg?rlkey=z9vizeadoe1bskarlq8ajmzk3&st=n1id1ck6&dl=1" alt="Project-2" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-tittle">Kikuyu Resume</h2>
+                        <div class="btn-container">
+                            <button class="btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1wTS9GfzGvFKGfzhYkueZFIirhncGROGo/view?usp=drive_link'">Download</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="https://www.dropbox.com/scl/fi/p75hwutz7loba49wpmm6z/pdf.jpg?rlkey=z9vizeadoe1bskarlq8ajmzk3&st=n1id1ck6&dl=1" alt="Project-2" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-tittle">Autobiographical Essay</h2>
+                        <div class="btn-container">
+                            <button class="btn-color-2 project-btn" onclick="location.href='https://drive.google.com/file/d/1-ndDmWM8iLwa_9C5-iJs7Ij2K2pXEO_L/view?usp=drive_link'">Download</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="https://www.dropbox.com/scl/fi/6k22n1e7e32or3viwcqr7/ppt.jpg?rlkey=6eklcl406tsgfpu1r8dfea71j&st=4p9kogxe&dl=1" alt="Project-2" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-tittle">Self Presentation Essay</h2>
+                        <div class="btn-container">
+                            <button class="btn-color-2 project-btn" onclick="location.href='https://docs.google.com/presentation/d/1UPw6FZJWdrN7ylCH4YM8bdsZgJeaS2ZZ/edit?usp=drive_link&ouid=100369817492822911195&rtpof=true&sd=true'">Download</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="https://www.dropbox.com/scl/fi/6k22n1e7e32or3viwcqr7/ppt.jpg?rlkey=6eklcl406tsgfpu1r8dfea71j&st=4p9kogxe&dl=1" alt="Project-2" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-tittle">Innovation in my field of study Essay</h2>
+                        <div class="btn-container">
+                            <button class="btn-color-2 project-btn" onclick="location.href='https://docs.google.com/presentation/d/18u4Nu-Engbn96r_w2iTxeiYdi0nVF86e/edit?usp=drive_link&ouid=100369817492822911195&rtpof=true&sd=true'">Download</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="https://www.dropbox.com/scl/fi/6k22n1e7e32or3viwcqr7/ppt.jpg?rlkey=6eklcl406tsgfpu1r8dfea71j&st=4p9kogxe&dl=1" alt="Project-2" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-tittle">African culture Essay</h2>
+                        <div class="btn-container">
+                            <button class="btn-color-2 project-btn" onclick="location.href='https://docs.google.com/presentation/d/1rbOsJhWu49PsUVIr_XPWWRy4RA0QUnxa/edit?usp=drive_link&ouid=100369817492822911195&rtpof=true&sd=true'">Download</button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="https://www.dropbox.com/scl/fi/6k22n1e7e32or3viwcqr7/ppt.jpg?rlkey=6eklcl406tsgfpu1r8dfea71j&st=4p9kogxe&dl=1"  alt="Project-2" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-tittle">challenges facing the modern society Essay</h2>
+                        <div class="btn-container">
+                            <button class="btn-color-2 project-btn" onclick="location.href='https://docs.google.com/presentation/d/1yVCrwTF6GtwDOt_KmiAEAuDzZ-9nMKeR/edit?usp=drive_link&ouid=100369817492822911195&rtpof=true&sd=true'">Download</button>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+            </div>
+           <!--<img src="https://www.dropbox.com/scl/fi/pj3khcpzzwb7sxmk4y3z0/arrow-icon.jpg?rlkey=9iuakjgvijyw3nfm1z2dp39gq&st=7yq2ka3k&dl=1" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">-->
+
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="tittle">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="https://www.dropbox.com/scl/fi/gsszj0myj4pgirf8rolvv/email.jpg?rlkey=tlyh0wkjmqsi3x93tq115rpn9&st=cg5aqk5o&dl=1" alt="email icon" class="icon contact-icon email-icon">
+                    <p>
+                        <a href="mailto:maurynmaingi@gmail.com">maurynmaingi@gmail.com</a>
+                        <br>
+                        <a href="mailto:wangechimaingi017@gmail.com">wangechimaingi017@gmail.com</a>
+                    </p> 
+                </div>
+                     <div class="contact-info-container">
+                        <img src="https://www.dropbox.com/scl/fi/7vqguk43b6cpjay00ofyl/facebook.jfif?rlkey=pou5ld9nzuly9iurp5ww3annh&st=apblq3pw&dl=1" alt="facebook icon" class="icon contact-icon facebook">
+                    <p>
+                        <a href="https://web.facebook.com/people/Maureen-Maingi/pfbid042uUmZDCaEnbw2Utb1NJhecn2nbkyFHM6PaxuDw2XtJf52HmzcgwA9jkW7ouGoZ5l" target="_blank">Facebook</a>
+                    </p>
+                </div>
+                
+                <div class="contact-info-container">
+                    <img src="https://www.dropbox.com/scl/fi/89ytthmq77a0smtlwn1pw/R.png?rlkey=x01dot22d1h0ew1ljo6ml9o8a&st=n1erxzbm&dl=1" alt="X icon" class="icon contact-icon X-icon">
+                    <p>
+                        <a href="https://x.com/MaingiWangechi" target="_blank">Xspace</a>
+                    </p>
+                </div>
+                
+                <div class="contact-info-container">
+                        <div class="social-container">
+                            <img src="https://www.dropbox.com/scl/fi/ln4zlyu9uxvgvjfulgue7/WhatsApp-Image.jpg?rlkey=bhoar2w76k9avuat0mbhmtdpz&st=r463k9j6&dl=1" alt="call icon" class="icon contact-icon call-icon">
+                        <p>                        
+                            <a href="https://wa.me/254791021309" target="_blank" rel="noopener noreferrer">+254791021309</a>
+                            <br>
+                            <a href="https://wa.me/254784660946" target="_blank" rel="noopener noreferrer">+254784660946</a>                            
+                    </p>
+                </div>
+                
+
+            </div>
+        </section>
+        <!--footer-->
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav_links">
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#experience">Experience</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Project</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright @ 2024 Maurine Wangechi Maingi. All Rights Reserved</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
